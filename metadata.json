@@ -1,0 +1,6 @@
+{
+  "name": "Dandeli Plans",
+  "description": "Premium Dandeli resort stays, Kali River white-water rafting, and curated Western Ghats wilderness experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

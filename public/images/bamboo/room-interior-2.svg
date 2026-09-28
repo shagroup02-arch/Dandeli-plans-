@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="warmIntGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff1b8" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#ffb347" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb347" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="wovenBamboo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9e6e39"/>
+      <stop offset="50%" stop-color="#c99557"/>
+      <stop offset="100%" stop-color="#784c21"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Flooring with tiles -->
+  <rect width="1200" height="800" fill="#1e1f24"/>
+  <g stroke="#131417" stroke-width="4" opacity="0.7">
+    <line x1="0" y1="620" x2="1200" y2="620"/>
+    <line x1="0" y1="730" x2="1200" y2="730"/>
+    <line x1="350" y1="550" x2="220" y2="800"/>
+    <line x1="800" y1="550" x2="700" y2="800"/>
+  </g>
+
+  <!-- High Bamboo Slanted Thatched Ceiling with Warm Fairy Lights -->
+  <polygon points="0,0 550,180 1200,0 1200,320 0,320" fill="#6e4620"/>
+  <g stroke="#4a2e12" stroke-width="10">
+    <line x1="0" y1="100" x2="550" y2="180"/>
+    <line x1="550" y1="180" x2="1200" y2="100"/>
+    <line x1="280" y1="140" x2="280" y2="320" stroke-width="6"/>
+    <line x1="820" y1="140" x2="820" y2="320" stroke-width="6"/>
+  </g>
+  <!-- Warm glowing light strip under roof eaves -->
+  <path d="M500,210 L1200,240" stroke="#ffe382" stroke-width="8" opacity="0.8" stroke-linecap="round"/>
+
+  <!-- Back Wall - Fine Bamboo Woven Pattern -->
+  <rect x="0" y="160" width="650" height="480" fill="url(#wovenBamboo)"/>
+  <!-- Back Right Wall - Vertical Natural Bamboo Trunk Poles -->
+  <rect x="550" y="220" width="650" height="450" fill="#b58448"/>
+  <g stroke="#704d22" stroke-width="5" opacity="0.8">
+    <line x1="580" y1="220" x2="580" y2="670"/>
+    <line x1="620" y1="220" x2="620" y2="670"/>
+    <line x1="660" y1="220" x2="660" y2="670"/>
+    <line x1="700" y1="220" x2="700" y2="670"/>
+    <line x1="740" y1="220" x2="740" y2="670"/>
+    <line x1="780" y1="220" x2="780" y2="670"/>
+    <line x1="820" y1="220" x2="820" y2="670"/>
+    <line x1="860" y1="220" x2="860" y2="670"/>
+    <line x1="900" y1="220" x2="900" y2="670"/>
+    <line x1="940" y1="220" x2="940" y2="670"/>
+    <line x1="980" y1="220" x2="980" y2="670"/>
+    <line x1="1020" y1="220" x2="1020" y2="670"/>
+    <line x1="1060" y1="220" x2="1060" y2="670"/>
+    <line x1="1100" y1="220" x2="1100" y2="670"/>
+    <line x1="1140" y1="220" x2="1140" y2="670"/>
+  </g>
+
+  <!-- Black Metal Entry Door on Left with Chrome Latch -->
+  <rect x="100" y="160" width="180" height="520" fill="#171c1e" stroke="#0a0c0d" stroke-width="8" rx="4"/>
+  <!-- Silver Door Latch & Lock -->
+  <rect x="230" y="430" width="45" height="12" fill="#cbd5e1" rx="2"/>
+
+  <!-- Window with Printed Floral Curtains in Centre -->
+  <rect x="410" y="225" width="110" height="180" fill="#ffedd5"/>
+  <rect x="410" y="225" width="50" height="180" fill="#831843" rx="2"/>
+  <rect x="470" y="225" width="50" height="180" fill="#831843" rx="2"/>
+  <!-- Curtain valance -->
+  <rect x="405" y="220" width="120" height="40" fill="#701a38" rx="3"/>
+
+  <!-- Wooden Vanity / Dressing Mirror Table in Corner -->
+  <rect x="520" y="300" width="80" height="290" fill="#54361a" stroke="#3b230d" stroke-width="4"/>
+  <rect x="535" y="320" width="50" height="120" fill="#cbd5e1" opacity="0.8"/>
+
+  <!-- Glass Coffee Table in front with Electric Kettle -->
+  <polygon points="370,550 540,550 520,680 350,680" fill="#000000" fill-opacity="0.7" stroke="#475569" stroke-width="4"/>
+  <rect x="460" y="520" width="30" height="35" fill="#334155" rx="4"/>
+
+  <!-- Wall Sconce Lanterns on Right Bamboo Wall -->
+  <g transform="translate(640, 310)">
+    <circle cx="0" cy="0" r="65" fill="#ffe685" opacity="0.75"/>
+    <polygon points="-12,14 12,14 8,-14 -8,-14" fill="#ffcc00" stroke="#381c00" stroke-width="3"/>
+  </g>
+  <g transform="translate(960, 310)">
+    <circle cx="0" cy="0" r="65" fill="#ffe685" opacity="0.75"/>
+    <polygon points="-12,14 12,14 8,-14 -8,-14" fill="#ffcc00" stroke="#381c00" stroke-width="3"/>
+  </g>
+
+  <!-- Large Solid Teak Wood Bed with Mustard Yellow / Gold Bedspread -->
+  <!-- Headboard -->
+  <rect x="650" y="500" width="310" height="80" fill="#633d1b" stroke="#3d230d" stroke-width="6" rx="4"/>
+  <!-- Main Bed Mattress -->
+  <polygon points="390,620 980,550 960,780 430,780" fill="#eab308" stroke="#ca8a04" stroke-width="4"/>
+  <!-- Pillows with White Pillowcases -->
+  <polygon points="610,535 770,535 760,600 600,600" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+  <polygon points="730,570 940,570 925,665 720,665" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" rx="6"/>
+
+  <!-- Folded Royal Blue Guest Towels (Triangle Origami Fold) -->
+  <polygon points="400,660 510,580 450,670" fill="#2563eb"/>
+  <polygon points="580,760 810,760 670,680" fill="#1d4ed8"/>
+  <!-- Jasmine / Frangipani flowers on bed -->
+  <circle cx="600" cy="660" r="7" fill="#fff"/>
+  <circle cx="600" cy="660" r="3" fill="#f59e0b"/>
+
+  <!-- Coir Woven Door Mat -->
+  <polygon points="270,760 500,760 480,800 240,800" fill="#925927" stroke="#5f3611" stroke-width="3"/>
+
+  <!-- Top Right Logo: Dandeli Plans -->
+  <g transform="translate(740, 20)">
+    <rect x="0" y="0" width="380" height="95" rx="16" fill="#000000" fill-opacity="0.45"/>
+    <path d="M50,45 L75,20 L100,45 Z" fill="#2ea066"/>
+    <path d="M85,45 L115,10 L145,45 Z" fill="#4ab8d9"/>
+    <circle cx="130" cy="20" r="8" fill="#ffb703"/>
+    <text x="165" y="40" font-family="'Georgia', serif" font-size="28" font-weight="bold" fill="#ffffff">Dandeli<tspan fill="#62d989"> Plans</tspan></text>
+    <text x="165" y="60" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ddd" letter-spacing="2">RESORT &amp; ADVENTURE</text>
+  </g>
+
+  <!-- Bottom Left Badge: Stay Closer to Nature - DANDELI PLANS -->
+  <g transform="translate(30, 680)">
+    <rect x="0" y="0" width="340" height="55" rx="12" fill="#071a11" stroke="#1c4028" stroke-width="1.5"/>
+    <path d="M25,27 Q20,18 28,15 Q34,22 25,27 Z" fill="#48c774"/>
+    <text x="40" y="28" font-family="'Brush Script MT', cursive, Georgia, serif" font-size="24" fill="#ffffff">Stay Closer to Nature</text>
+    <text x="80" y="46" font-family="sans-serif" font-size="9" font-weight="bold" fill="#d9d5cb" letter-spacing="2">— DANDELI PLANS —</text>
+  </g>
+
+  <!-- Icons strip -->
+  <g transform="translate(30, 745)">
+    <text x="15" y="30" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff">COMFORTABLE STAY</text>
+    <text x="145" y="30" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff">JUNGLE VIBES</text>
+    <text x="245" y="30" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ffffff">ADVENTURE AWAITS</text>
+  </g>
+</svg>

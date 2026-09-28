@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bambooCeiling" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5a2b"/>
+      <stop offset="50%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#5c3a1e"/>
+    </linearGradient>
+    <linearGradient id="warmIntGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff1b8" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#ffb347" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb347" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="forestView" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78b584"/>
+      <stop offset="60%" stop-color="#3e844e"/>
+      <stop offset="100%" stop-color="#22502c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Slate Tile Floor -->
+  <rect width="1200" height="800" fill="#22252a"/>
+  <!-- Floor Tile Grooves -->
+  <g stroke="#15171a" stroke-width="3" opacity="0.6">
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="0" y1="700" x2="1200" y2="700"/>
+    <line x1="400" y1="520" x2="300" y2="800"/>
+    <line x1="800" y1="520" x2="900" y2="800"/>
+  </g>
+
+  <!-- Thatched Bamboo High Vaulted Ceiling -->
+  <polygon points="0,0 600,120 1200,0 1200,280 600,320 0,280" fill="url(#bambooCeiling)"/>
+  <!-- Bamboo Rafters -->
+  <line x1="600" y1="120" x2="0" y2="280" stroke="#452811" stroke-width="12"/>
+  <line x1="600" y1="120" x2="1200" y2="280" stroke="#452811" stroke-width="12"/>
+  <line x1="600" y1="120" x2="600" y2="320" stroke="#452811" stroke-width="14"/>
+  <line x1="400" y1="170" x2="400" y2="300" stroke="#452811" stroke-width="8"/>
+  <line x1="800" y1="170" x2="800" y2="300" stroke="#452811" stroke-width="8"/>
+
+  <!-- Left & Right Bamboo Walls -->
+  <rect x="0" y="220" width="420" height="400" fill="#9c6634"/>
+  <g stroke="#613d1c" stroke-width="4" opacity="0.7">
+    <line x1="40" y1="220" x2="40" y2="620"/>
+    <line x1="80" y1="220" x2="80" y2="620"/>
+    <line x1="120" y1="220" x2="120" y2="620"/>
+    <line x1="160" y1="220" x2="160" y2="620"/>
+    <line x1="200" y1="220" x2="200" y2="620"/>
+    <line x1="240" y1="220" x2="240" y2="620"/>
+    <line x1="280" y1="220" x2="280" y2="620"/>
+  </g>
+
+  <rect x="820" y="160" width="380" height="640" fill="#9c6634"/>
+  <g stroke="#613d1c" stroke-width="4" opacity="0.7">
+    <line x1="860" y1="160" x2="860" y2="800"/>
+    <line x1="900" y1="160" x2="900" y2="800"/>
+    <line x1="940" y1="160" x2="940" y2="800"/>
+    <line x1="980" y1="160" x2="980" y2="800"/>
+    <line x1="1020" y1="160" x2="1020" y2="800"/>
+    <line x1="1060" y1="160" x2="1060" y2="800"/>
+    <line x1="1100" y1="160" x2="1100" y2="800"/>
+    <line x1="1140" y1="160" x2="1140" y2="800"/>
+  </g>
+
+  <!-- Open Door to Forest on Right -->
+  <rect x="640" y="320" width="170" height="280" fill="url(#forestView)"/>
+  <!-- Door frame & red entrance mat -->
+  <rect x="635" y="315" width="180" height="290" fill="none" stroke="#4a2f18" stroke-width="10"/>
+  <rect x="645" y="580" width="150" height="35" fill="#a82828" rx="4"/>
+
+  <!-- Red Floor Carpet in Bedroom -->
+  <polygon points="520,650 780,650 740,800 480,800" fill="#b52424" rx="8"/>
+
+  <!-- King Size Wooden Bed -->
+  <!-- Wooden Headboard -->
+  <rect x="40" y="460" width="520" height="120" rx="6" fill="#5e3816" stroke="#38200b" stroke-width="6"/>
+  <!-- Wooden Bed Frame -->
+  <polygon points="40,540 560,540 540,700 80,700" fill="#7a491e" stroke="#42260d" stroke-width="8"/>
+
+  <!-- White Mattress & Pillows -->
+  <polygon points="60,510 540,510 520,680 90,680" fill="#f5f5f7" stroke="#d4d4db" stroke-width="3"/>
+  <!-- Brown Throw Pillows -->
+  <rect x="90" y="480" width="90" height="60" rx="8" fill="#422817"/>
+  <rect x="260" y="475" width="80" height="55" rx="8" fill="#422817"/>
+  <rect x="170" y="485" width="90" height="55" rx="8" fill="#f5f5f7" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Dark Brown Blanket Runner & Towel Art Swans -->
+  <polygon points="120,560 480,560 460,670 100,670" fill="#3d2516"/>
+  <polygon points="120,560 480,560 478,575 118,575" fill="#cfa052"/>
+  <ellipse cx="320" cy="550" rx="40" ry="25" fill="#ffffff"/>
+  <!-- Frangipani flowers -->
+  <circle cx="300" cy="565" r="8" fill="#fff"/>
+  <circle cx="300" cy="565" r="3" fill="#ffcc00"/>
+
+  <!-- Ceiling Fan & Hanging Lamps -->
+  <g transform="translate(540, 160)">
+    <circle cx="0" cy="0" r="8" fill="#111"/>
+    <path d="M-80,-10 L80,-10 L60,10 L-60,10 Z" fill="#222" transform="rotate(35)"/>
+    <path d="M-80,-10 L80,-10 L60,10 L-60,10 Z" fill="#222" transform="rotate(155)"/>
+  </g>
+  <!-- Warm Pendant Lanterns -->
+  <g transform="translate(550, 60)">
+    <circle cx="0" cy="0" r="70" fill="#fff2b2" opacity="0.7"/>
+    <polygon points="-15,10 15,10 10,-10 -10,-10" fill="#ffd56b"/>
+  </g>
+  <g transform="translate(700, 230)">
+    <circle cx="0" cy="0" r="60" fill="#fff2b2" opacity="0.7"/>
+    <polygon points="-12,8 12,8 8,-8 -8,-8" fill="#ffd56b"/>
+  </g>
+
+  <!-- Wall-Mounted Flat Screen TV on Right Bamboo Wall -->
+  <rect x="810" y="200" width="30" height="140" rx="4" fill="#111" stroke="#333" stroke-width="2"/>
+
+  <!-- Top Right Branding: Nature's Comfort - Your Perfect Stay -->
+  <g transform="translate(850, 40)">
+    <text x="0" y="30" font-family="'Brush Script MT', cursive, sans-serif" font-size="32" fill="#ffffff">Nature&apos;s Comfort</text>
+    <text x="30" y="55" font-family="'Georgia', serif" font-size="18" font-weight="600" fill="#ffffff">Your Perfect Stay</text>
+    <line x1="20" y1="70" x2="180" y2="70" stroke="#48c774" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Top Left Logo: Dandeli Plans -->
+  <g transform="translate(40, 30)">
+    <rect x="0" y="0" width="320" height="100" rx="16" fill="#000000" fill-opacity="0.45"/>
+    <!-- Mountain Icon -->
+    <path d="M50,45 L75,20 L100,45 Z" fill="#2ea066"/>
+    <path d="M85,45 L115,10 L145,45 Z" fill="#4ab8d9"/>
+    <circle cx="130" cy="20" r="8" fill="#ffb703"/>
+    <text x="165" y="40" font-family="'Georgia', serif" font-size="26" font-weight="bold" fill="#ffffff">Dandeli<tspan fill="#62d989"> Plans</tspan></text>
+    <text x="165" y="58" font-family="sans-serif" font-size="9" font-weight="bold" fill="#ddd" letter-spacing="2">RESORT &amp; ADVENTURE</text>
+  </g>
+
+  <!-- Bottom Badges: Comfortable Stay · Jungle Vibes · Adventure Awaits -->
+  <g transform="translate(40, 710)">
+    <rect x="0" y="0" width="440" height="70" rx="14" fill="#06120c" fill-opacity="0.9" stroke="#1c3826" stroke-width="1.5"/>
+    <!-- 1 -->
+    <g transform="translate(35, 15)">
+      <rect x="5" y="10" width="24" height="12" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="17" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fff" letter-spacing="0.5">COMFORTABLE</text>
+      <text x="17" y="46" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fff" letter-spacing="0.5">STAY</text>
+    </g>
+    <line x1="130" y1="15" x2="130" y2="55" stroke="#264d34" stroke-width="2"/>
+    <!-- 2 -->
+    <g transform="translate(180, 15)">
+      <path d="M17,10 Q10,18 17,26 Q24,18 17,10 Z" fill="#48c774"/>
+      <text x="17" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fff" letter-spacing="0.5">JUNGLE</text>
+      <text x="17" y="46" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fff" letter-spacing="0.5">VIBES</text>
+    </g>
+    <line x1="275" y1="15" x2="275" y2="55" stroke="#264d34" stroke-width="2"/>
+    <!-- 3 -->
+    <g transform="translate(330, 15)">
+      <path d="M8,24 L18,10 L28,24 Z" fill="none" stroke="#fff" stroke-width="2"/>
+      <text x="18" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fff" letter-spacing="0.5">ADVENTURE</text>
+      <text x="18" y="46" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="bold" fill="#fff" letter-spacing="0.5">AWAITS</text>
+    </g>
+  </g>
+</svg>

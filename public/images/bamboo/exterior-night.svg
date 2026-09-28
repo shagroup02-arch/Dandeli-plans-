@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040a17"/>
+      <stop offset="60%" stop-color="#081726"/>
+      <stop offset="100%" stop-color="#0b231a"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffdf78" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#ffaa22" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#ff7700" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ff7700" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bambooWall" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5a2b"/>
+      <stop offset="25%" stop-color="#b8860b"/>
+      <stop offset="50%" stop-color="#d4a017"/>
+      <stop offset="75%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#704214"/>
+    </linearGradient>
+    <linearGradient id="thatchedRoof" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5a3d1b"/>
+      <stop offset="50%" stop-color="#7c5625"/>
+      <stop offset="100%" stop-color="#3b260f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="800" fill="url(#nightSky)"/>
+
+  <!-- Background Forest & Palms -->
+  <g opacity="0.6">
+    <path d="M0,500 Q150,380 300,500 T600,480 T900,490 T1200,470 L1200,800 L0,800 Z" fill="#06170f"/>
+    <!-- Palm Silhouettes -->
+    <path d="M680,480 Q670,300 600,220 M680,480 Q690,280 750,200 M680,480 Q650,330 550,280 M680,480 Q720,320 800,290" stroke="#0a2818" stroke-width="16" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Second Cottage in background right -->
+  <g transform="translate(500, 320) scale(0.65)">
+    <polygon points="100,200 280,60 460,200" fill="url(#thatchedRoof)"/>
+    <rect x="130" y="200" width="300" height="240" fill="url(#bambooWall)"/>
+    <circle cx="280" cy="220" r="160" fill="url(#lampGlow)" opacity="0.6"/>
+  </g>
+
+  <!-- Garden Pathway -->
+  <path d="M1200,800 L750,800 L880,500 L1200,490 Z" fill="#2a241b"/>
+  <path d="M750,800 L250,800 L550,550 L880,500 Z" fill="#362e22"/>
+  <!-- Pathway Cobblestone Texture -->
+  <g opacity="0.2" stroke="#000" stroke-width="2" fill="none">
+    <line x1="780" y1="760" x2="1150" y2="760"/>
+    <line x1="810" y1="710" x2="1120" y2="710"/>
+    <line x1="840" y1="660" x2="1080" y2="660"/>
+  </g>
+
+  <!-- Pathway Bollard Lights on right -->
+  <g transform="translate(940, 480)">
+    <circle cx="10" cy="10" r="90" fill="url(#lampGlow)" opacity="0.5"/>
+    <rect x="8" y="10" width="6" height="90" fill="#111"/>
+    <polygon points="4,10 16,10 14,0 6,0" fill="#ffd24d"/>
+  </g>
+  <g transform="translate(880, 560)">
+    <circle cx="10" cy="10" r="130" fill="url(#lampGlow)" opacity="0.6"/>
+    <rect x="7" y="10" width="8" height="120" fill="#111"/>
+    <polygon points="2,10 18,10 15,-2 5,-2" fill="#ffd24d"/>
+  </g>
+  <g transform="translate(700, 620)">
+    <circle cx="15" cy="15" r="180" fill="url(#lampGlow)" opacity="0.75"/>
+    <rect x="11" y="15" width="12" height="170" fill="#151515"/>
+    <polygon points="4,15 26,15 22,-5 8,-5" fill="#ffdf78"/>
+  </g>
+
+  <!-- Foreground Main Bamboo Cottage on Left (On Stilts) -->
+  <!-- Thatched Roof -->
+  <polygon points="-30,260 260,60 550,260" fill="url(#thatchedRoof)"/>
+  <polygon points="-40,265 260,50 560,265" stroke="#b38036" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Cottage Body with Bamboo Slats -->
+  <rect x="30" y="260" width="460" height="320" fill="url(#bambooWall)"/>
+  <!-- Bamboo vertical slat lines -->
+  <g stroke="#52310f" stroke-width="3" opacity="0.5">
+    <line x1="60" y1="260" x2="60" y2="580"/>
+    <line x1="90" y1="260" x2="90" y2="580"/>
+    <line x1="120" y1="260" x2="120" y2="580"/>
+    <line x1="150" y1="260" x2="150" y2="580"/>
+    <line x1="290" y1="260" x2="290" y2="580"/>
+    <line x1="320" y1="260" x2="320" y2="580"/>
+    <line x1="350" y1="260" x2="350" y2="580"/>
+    <line x1="380" y1="260" x2="380" y2="580"/>
+  </g>
+
+  <!-- Door & Windows with warm interior light -->
+  <rect x="140" y="280" width="90" height="170" fill="#804a1b" stroke="#381e05" stroke-width="6"/>
+  <rect x="290" y="290" width="110" height="140" fill="#ffdf78" stroke="#4a2c0f" stroke-width="8"/>
+  <line x1="345" y1="290" x2="345" y2="430" stroke="#4a2c0f" stroke-width="6"/>
+  <line x1="290" y1="360" x2="400" y2="360" stroke="#4a2c0f" stroke-width="6"/>
+
+  <!-- Hanging Lanterns -->
+  <circle cx="145" cy="240" r="70" fill="url(#lampGlow)" opacity="0.8"/>
+  <rect x="140" y="225" width="10" height="18" rx="4" fill="#ffea88" stroke="#261503" stroke-width="2"/>
+
+  <circle cx="425" cy="350" r="70" fill="url(#lampGlow)" opacity="0.8"/>
+  <rect x="420" y="335" width="10" height="18" rx="4" fill="#ffea88" stroke="#261503" stroke-width="2"/>
+
+  <!-- Balcony / Verandah Railing -->
+  <rect x="250" y="440" width="240" height="12" fill="#5e3b16"/>
+  <line x1="250" y1="440" x2="370" y2="550" stroke="#73491c" stroke-width="8"/>
+  <line x1="370" y1="440" x2="250" y2="550" stroke="#73491c" stroke-width="8"/>
+  <line x1="370" y1="440" x2="490" y2="550" stroke="#73491c" stroke-width="8"/>
+  <line x1="490" y1="440" x2="370" y2="550" stroke="#73491c" stroke-width="8"/>
+  <rect x="250" y="550" width="240" height="16" fill="#5e3b16"/>
+
+  <!-- Bamboo Support Stilts -->
+  <rect x="50" y="580" width="30" height="160" rx="6" fill="#422409"/>
+  <rect x="120" y="580" width="30" height="160" rx="6" fill="#422409"/>
+  <rect x="310" y="580" width="30" height="160" rx="6" fill="#422409"/>
+  <rect x="430" y="580" width="30" height="160" rx="6" fill="#422409"/>
+
+  <!-- Bamboo Wooden Staircase -->
+  <g transform="translate(150, 480)">
+    <line x1="15" y1="0" x2="-40" y2="280" stroke="#c69241" stroke-width="16" stroke-linecap="round"/>
+    <line x1="85" y1="0" x2="30" y2="280" stroke="#c69241" stroke-width="16" stroke-linecap="round"/>
+    <line x1="10" y1="40" x2="75" y2="40" stroke="#694017" stroke-width="12"/>
+    <line x1="0" y1="90" x2="65" y2="90" stroke="#694017" stroke-width="12"/>
+    <line x1="-10" y1="140" x2="55" y2="140" stroke="#694017" stroke-width="12"/>
+    <line x1="-20" y1="190" x2="45" y2="190" stroke="#694017" stroke-width="12"/>
+    <line x1="-30" y1="240" x2="35" y2="240" stroke="#694017" stroke-width="12"/>
+  </g>
+
+  <!-- Tropical Shrubs & Plants around base -->
+  <g fill="#1c402a" opacity="0.9">
+    <path d="M0,740 Q40,640 100,740 Q150,620 220,740 L0,800 Z"/>
+    <path d="M480,740 Q550,630 620,740 Q690,650 750,740 L600,800 Z" fill="#225236"/>
+  </g>
+
+  <!-- Watermark: Dandeli Plans Resort & Adventure (Matching Top Right of Photo) -->
+  <g transform="translate(880, 40)">
+    <rect x="0" y="0" width="280" height="80" rx="12" fill="#000000" fill-opacity="0.4"/>
+    <!-- Mountain Icon -->
+    <path d="M40,32 L58,12 L76,32 Z" fill="#2ea066"/>
+    <path d="M64,32 L88,6 L112,32 Z" fill="#4ab8d9"/>
+    <circle cx="100" cy="14" r="6" fill="#ffb703"/>
+    <!-- Text -->
+    <text x="130" y="30" font-family="'Georgia', serif" font-size="24" font-weight="bold" fill="#ffffff" letter-spacing="0.5">Dandeli<tspan fill="#62d989"> Plans</tspan></text>
+    <text x="130" y="46" font-family="sans-serif" font-size="8" font-weight="bold" fill="#d9d5cb" letter-spacing="2">RESORT &amp; ADVENTURE</text>
+  </g>
+</svg>
